@@ -1,0 +1,159 @@
+
+    body{
+        background-color: gray;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: large;
+        text-align: center;
+        margin: auto;
+    }
+@media all and (min-width: 480px) and (max-width: 767px){
+    #a{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 75px;
+        width: 480px;  
+        margin: auto;
+
+    }
+    #b{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 150px;
+        width: 480px;  
+        margin: auto;
+
+    }
+    #c{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 125px;
+        width: 480px;  
+        margin: auto;
+  
+    }
+    #d{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 125px;
+        width: 480px; 
+        margin: auto;
+ 
+    }
+    #div2{
+        width: 480px;
+        margin: auto;
+
+      }
+ .box1 #e{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 240px;
+        float: left;  
+    }
+.box1 #f {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 240px; 
+        float: left;  
+    }
+  .box2  #g{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 240px; 
+        float: left;   
+    }
+ .box2 #h {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 240px; 
+        float: left;  
+    }
+    
+    footer{
+        border: 1px solid black;
+        height: 80px;
+        width: 480px; 
+        float: left;
+    }}
+
+@media all and (min-width: 768px) and (max-width: 960px){
+    #a{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 100px;
+        width: 100%;  
+        margin: auto;
+        float: left;
+
+    }
+    #b{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 600px;
+        width: 20.8%;  
+        margin: auto;
+        float: left;
+
+    }
+    #c{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 200px;
+        width: 39.6%;  
+        margin: auto;
+        float: left;
+  
+    }
+    #d{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 200px;
+        width: 39.6%;  
+        margin: auto;
+        float: left;
+ 
+    }
+    #div2{
+        margin: auto;
+
+      }
+ .box1 #e{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 19.8%;
+        float: left;  
+    }
+.box1 #f {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 19.8%;
+        float: left;  
+    }
+  .box2  #g{
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 19.8%;
+        float: left;   
+    }
+ .box2 #h {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 19.8%;
+        float: left;  
+    }
+    
+    footer{
+        border: 1px solid black;
+        height: 150px;
+        width: 79.17%; 
+        float: left;
+    }
+}
