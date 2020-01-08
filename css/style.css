@@ -1,159 +1,226 @@
+* {
+    box-sizing: border-box;
+}
 
-    body{
-        background-color: gray;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: large;
-        text-align: center;
-        margin: auto;
+div,
+header,
+footer,
+aside {
+    background: #eee;
+    border: 1px solid black;
+    float: left;
+    width: 100%;
+}
+
+@media screen and (max-width:960px) {
+    main {
+        width: 480px;
     }
-@media all and (min-width: 480px) and (max-width: 767px){
-    #a{
+    header {
+        height: 57px;
+    }
+    footer {
+        border-top: none;
+        height: 80px;
+    }
+    aside {
+        border-top: none;
+        height: 150px;
+    }
+    .two {
+        border-top: none;
+        height: 125px;
+    }
+    .four {
+        border-top: none;
+        height: 250px;
+        width: 240px;
+    }
+    .four:nth-of-type(even) {
+        border-left: none;
+    }
+}
+
+@media screen and (min-width:960px) {
+    main {
+        width: 960px;
+    }
+    div {
+        border-top: none;
+        border-left: none;
+    }
+    footer {
+        border-top: none;
+        border-left: none;
+    }
+    aside {
+        border-top: none;
+    }
+    .two {
+        height: 200px;
+        width: 380px;
+    }
+    .four {
+        height: 250px;
+        width: 190px;
+    }
+}
+
+main {
+    margin: auto;
+}
+
+section {
+    overflow: hidden;
+}
+
+
+/* 
+body {
+    background-color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+    #a {
         box-sizing: border-box;
         border: 1px solid black;
         height: 75px;
-        width: 480px;  
+        width: 480px;
         margin: auto;
-
     }
-    #b{
+    #b {
         box-sizing: border-box;
         border: 1px solid black;
         height: 150px;
-        width: 480px;  
-        margin: auto;
-
-    }
-    #c{
-        box-sizing: border-box;
-        border: 1px solid black;
-        height: 125px;
-        width: 480px;  
-        margin: auto;
-  
-    }
-    #d{
-        box-sizing: border-box;
-        border: 1px solid black;
-        height: 125px;
-        width: 480px; 
-        margin: auto;
- 
-    }
-    #div2{
         width: 480px;
         margin: auto;
-
-      }
- .box1 #e{
+    }
+    #c {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 125px;
+        width: 480px;
+        margin: auto;
+    }
+    #d {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 125px;
+        width: 480px;
+        margin: auto;
+    }
+    #div2 {
+        width: 480px;
+        margin: auto;
+    }
+    .box1 #e {
         box-sizing: border-box;
         border: 1px solid black;
         height: 250px;
         width: 240px;
-        float: left;  
+        float: left;
     }
-.box1 #f {
+    .box1 #f {
         box-sizing: border-box;
         border: 1px solid black;
         height: 250px;
-        width: 240px; 
-        float: left;  
+        width: 240px;
+        float: left;
     }
-  .box2  #g{
+    .box2 #g {
         box-sizing: border-box;
         border: 1px solid black;
         height: 250px;
-        width: 240px; 
-        float: left;   
+        width: 240px;
+        float: left;
     }
- .box2 #h {
+    .box2 #h {
         box-sizing: border-box;
         border: 1px solid black;
         height: 250px;
-        width: 240px; 
-        float: left;  
+        width: 240px;
+        float: left;
     }
-    
-    footer{
+    footer {
         border: 1px solid black;
         height: 80px;
-        width: 480px; 
-        float: left;
-    }}
-
-@media all and (min-width: 768px) and (max-width: 960px){
-    #a{
-        box-sizing: border-box;
-        border: 1px solid black;
-        height: 100px;
-        width: 100%;  
-        margin: auto;
-        float: left;
-
-    }
-    #b{
-        box-sizing: border-box;
-        border: 1px solid black;
-        height: 600px;
-        width: 20.8%;  
-        margin: auto;
-        float: left;
-
-    }
-    #c{
-        box-sizing: border-box;
-        border: 1px solid black;
-        height: 200px;
-        width: 39.6%;  
-        margin: auto;
-        float: left;
-  
-    }
-    #d{
-        box-sizing: border-box;
-        border: 1px solid black;
-        height: 200px;
-        width: 39.6%;  
-        margin: auto;
-        float: left;
- 
-    }
-    #div2{
-        margin: auto;
-
-      }
- .box1 #e{
-        box-sizing: border-box;
-        border: 1px solid black;
-        height: 250px;
-        width: 19.8%;
-        float: left;  
-    }
-.box1 #f {
-        box-sizing: border-box;
-        border: 1px solid black;
-        height: 250px;
-        width: 19.8%;
-        float: left;  
-    }
-  .box2  #g{
-        box-sizing: border-box;
-        border: 1px solid black;
-        height: 250px;
-        width: 19.8%;
-        float: left;   
-    }
- .box2 #h {
-        box-sizing: border-box;
-        border: 1px solid black;
-        height: 250px;
-        width: 19.8%;
-        float: left;  
-    }
-    
-    footer{
-        border: 1px solid black;
-        height: 150px;
-        width: 79.17%; 
+        width: 480px;
         float: left;
     }
 }
+
+@media all and (min-width: 768px) and (max-width: 960px) {
+    #a {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 100px;
+        width: 100%;
+        margin: auto;
+        float: left;
+    }
+    #b {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 600px;
+        width: 20.8%;
+        margin: auto;
+        float: left;
+    }
+    #c {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 200px;
+        width: 39.6%;
+        margin: auto;
+        float: left;
+    }
+    #d {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 200px;
+        width: 39.6%;
+        margin: auto;
+        float: left;
+    }
+    #div2 {
+        margin: auto;
+    }
+    .box1 #e {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 19.8%;
+        float: left;
+    }
+    .box1 #f {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 19.8%;
+        float: left;
+    }
+    .box2 #g {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 19.8%;
+        float: left;
+    }
+    .box2 #h {
+        box-sizing: border-box;
+        border: 1px solid black;
+        height: 250px;
+        width: 19.8%;
+        float: left;
+    }
+    footer {
+        border: 1px solid black;
+        height: 150px;
+        width: 79.17%;
+        float: left;
+    }
+} */
